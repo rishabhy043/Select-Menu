@@ -33,6 +33,7 @@ img{
 }
 .options{
     border: 1px solid black;
+    display: none;
 }
 .option{
     background-color: rgba(213, 210, 206, 0.477);
@@ -52,4 +53,8 @@ img{
 }
 .option:hover{
     background-color: white;
+}
+.main img:hover{
+   transform: scale(1.9);
+    padding: 3px;
 }
